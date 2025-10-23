@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/page": "^1.11.9"
+  }
+}
