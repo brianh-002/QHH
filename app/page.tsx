@@ -7,7 +7,7 @@ import HeroImage from "../public/HeroImage.png";
 export default function Home() {
   return (
     <Grid >
-      <NavBar />
+     
       <Container className=" grid">
         <div className=" col-start-1 col-end-14 ">
           <h1 className=" text-[96px] text-center text-accent1">
