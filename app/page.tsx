@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Grid from "./Components/GridContainer";
 
 export default function Home() {
   return (
-    <main>
+    <Grid>
       <h1 className="text-[96px] text-center text-accent1">
         Quality Homes For Humankind™
       </h1>
@@ -36,6 +37,6 @@ export default function Home() {
           allowFullScreen
         />
       </section>
-    </main>
+    </Grid>
   );
 }
