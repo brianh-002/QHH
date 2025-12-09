@@ -1,5 +1,5 @@
 import Link from "next/link";
-import"../../Assets/TextLogo.png";
+import"../../public/TextLogo.png";
 
 export default function NavBar() {
   return (
@@ -7,7 +7,7 @@ export default function NavBar() {
       {/* Logo */}
       <div className="flex items-center">
         <Link href="/" className="text-2xl font-bold text-blue-600 flex items-center">
-          <img src="../../Assets/TextLogo.png" alt="QHH Logo" className="h-8 w-8 mr-2" />
+          <img src="TextLogo.png" alt="QHH Logo" className="h-8 w-8 mr-2" />
         </Link>
       </div>
 
