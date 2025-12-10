@@ -10,16 +10,18 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "@auth0/nextjs-auth0": "^4.13.1",
+    "next": "^15.5.7",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^24.10.2",
-    "@types/react": "^19.2.7",
-    "tailwindcss": "^4",
-    "typescript": "^5.9.3"
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.8",
+    "tailwindcss": "^4"
   }
 }

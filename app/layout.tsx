@@ -1,6 +1,6 @@
 import "./globals.css";
-
-
+import NavBar from "@/components/NavBar";
+import { Auth0Provider } from "@auth0/nextjs-auth0/client";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,9 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-     
       <body>
-        {children}
+        <Auth0Provider>
+          <NavBar />
+          {children}
+        </Auth0Provider>
       </body>
     </html>
   );
